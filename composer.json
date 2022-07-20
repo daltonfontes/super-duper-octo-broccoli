@@ -1,0 +1,16 @@
+{
+    "name": "codespace/super-duper-octo-broccoli",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codespace\\SuperDuperOctoBroccoli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dalton Fontes",
+            "email": "fontes.dalton@hotmail.com"
+        }
+    ],
+    "require": {}
+}
