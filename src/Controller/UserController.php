@@ -15,18 +15,23 @@ class UserController
 
     public function store()
     {
-        $this->$userRepository->create();
+        $this->$userRepository->createUser();
     }
 
     public function show()
     {
-        $this->userRepository->update();
+        $this->userRepository->getUserById();
 
+    }
+
+    public function update()
+    {
+        $this->userRepository->updateUser();
     }
 
     public function destroy()
     {
-        $this->userRepository->delete();
+        $this->userRepository->deleteUser();
     }
 
 
