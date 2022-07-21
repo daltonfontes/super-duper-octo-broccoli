@@ -1,7 +1,7 @@
 <?php
-namespace Codespace\SuperDuperOctoBroccoli\Controller;
+namespace App\Controller;
 
-use Codespace\SuperDuperOctoBroccoli\Interfaces\UserRepositoryInterface;
+use App\Interfaces\UserRepositoryInterface;
 
 class UserController
 {
@@ -15,7 +15,7 @@ class UserController
 
     public function store()
     {
-        $this->$userRepository->createUser();
+        $this->userRepository->createUser();
     }
 
     public function show()

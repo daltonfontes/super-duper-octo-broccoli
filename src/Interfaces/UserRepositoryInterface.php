@@ -1,5 +1,5 @@
 <?php
-namespace Codespace\SuperDuperOctoBroccoli\Interfaces;
+namespace App\Interfaces;
 
 interface UserRepositoryInterface 
 {
